@@ -1,0 +1,11 @@
+{
+	"epochs": 100,
+	"batch_size": 64,
+	"train_size": 0.8,
+	"scaler": "MinMax",
+	"timestamp_column": "Date",
+	"X": ["Daily minimum temperatures"],
+    "Y": ["Daily minimum temperatures"],
+    "num_past_samples": 5,
+    "num_future_samples": 1
+}
